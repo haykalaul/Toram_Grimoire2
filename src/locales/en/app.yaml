@@ -1,0 +1,102 @@
+loading-message:
+  Stats: Loading Character's Stats List
+  CharacterStats: Loading Character Simulator
+  Items: Loading Item List
+  Skill: Loading Skill Information
+  Glossary: Loading Glossary List
+  Enchant: Loading Statting Information
+  DamageCalculation: Loading Damage Calculation
+  Food: Loading Food Buff information
+  init: Initializing
+  bottom-tips:
+    '0': It will take extra time for loading the first time.  Please wait...
+    '1': Please refresh the website first if any errors occur.
+  init-locale: Loading Locale
+page-title:
+  base: "Cy's Grimoire"
+  character-simulator: Character Simulator
+  skill-simulator: Skill Simulator
+  skill-query: Skill Info
+  item-query: Item Search
+  crystal-query: Xtal Search
+  damage-calculation: Damage Calculator
+  enchant-simulator: Statting Simulator
+  enchant-doll: Statting Calculator Doll
+  home: Home
+  about: About
+settings:
+  title: Settings
+  update:
+    new-version-detected: New Update Available
+    force-update: Update immediately
+    new-version-detected-tips: New update available. Please go to setting for the newest update.
+  night-mode:
+    title: Night mode
+    caption: If you prefer black color as your background, you can switch to the Night mode.
+  switch-font:
+    title: Changing Word Font
+    caption: If there's any error (specific device might occur) or dislike the default font, you can switch to the basic font.
+    tips-1: It might take some time to download the font after changing the font setting.
+    default-font: Default Font
+    base-font: Basic Font
+  set-rem:
+    title: Page scaling
+    caption: You can adjust the size of elements to your preference.
+    rem-title: Size
+    tips-1: The adjustable range is 120~200, default value is 160.
+  primary-language:
+    title: Language settings
+    caption: Language is automatically detected. You can change to another language below.
+    tips-1: After changing the language, the page needs to be refresh for the change to take effect.
+    tips-2: Sections that have not been translated will still be displayed in other languages.
+    lang-title:
+      '0': English
+      '1': 繁體中文
+      '2': 日本語
+      '3': 简体中文
+      auto: Auto
+  secondary-language:
+    title: Secondary language setting
+    caption: Setting for secondary language. If the translation for the primary language is unfinished, it will show the secondary language.
+    tips-1: After changing the language, the page needs to be refresh for the change to take effect.
+    tips-2: If the language is still not finished translating, it will then show the original data (which usually is in Traditional Chinese).
+  clear-spreadsheets-caches:
+    title: Clear cache
+    caption: Grimoire takes time to load data from the database. To improve experience, it use cache to store data locally, achieving almost zero loading time. However, there are cases where new data is updated on the database, while the browser is still using old data, which may cause the program to not work correctly. If that happens, click the button below to clear cache and update the newest data.
+    tips-1: Under normal circumstances, there is no need to use this function in particular. This feature is only necessary when older database data would prevent the program from functioning properly.
+    tips-2: After cache is cleared, data needs to be downloaded again the next time you enter the page. This may take a while, so please be patient.
+    tips-3: After clearing cache, please refresh the page.
+    button-text: Clear cache
+    success-tips: Cache cleared. Data will be re-downloaded the next time you enter the page.
+  storage-backup:
+    title: Backup
+    caption: Grimoire uses function of the browser to store data locally, so user data may be lost due to factors such as clearing browsing data or changing the device. You can however extract your data to a backup file and load it later when needed. You can also load other people's backup files, or load your backup files in multiple browsers.
+    tips-1: After loading new data, current data will be overwritten.
+    tips-2: Please refresh the page immediately after loading data to ensure that the program works correctly.
+    save: Extract backup data
+    load: Load data
+    save-success-tips: Data extracted successfully.
+    load-success-tips: Data loaded successfully.
+    load-failed-tips: Data loading failed.
+    wrong-file-type-tips: Wrong file type (expected .txt)
+    restriction-homepage: In order to avoid unexpected errors, this function can only be used on the home page.
+features:
+  copy-to-clipboard-success-tips: Text copied to clipboard.
+  localStorage-inavailable-tips: The built-in storage feature is not available for this browser version.
+  copy-url-to-clipboard-success-tips: URL copied to clipboard.
+about:
+  author:
+    sub-title: Doll.
+    title: Author
+    toram-id: Toram ID
+  team:
+    equipment-data: Equipment Datas
+    skill-data: Skill Datas
+    sub-title: Thanks to the entire production team 0.0
+  sponsor:
+    personal: Personal Sponsorship
+    sub-title: Thank you to everyone who is willing to sponsor~
+    group: Guild Sponsor
+  partnership:
+    title: Partnership
+    join: Join

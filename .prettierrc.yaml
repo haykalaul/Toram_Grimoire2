@@ -1,0 +1,21 @@
+trailingComma: es5
+tabWidth: 2
+semi: false
+singleQuote: true
+quoteProps: consistent
+printWidth: 100
+arrowParens: 'avoid'
+bracketSameLine: false
+plugins:
+  - '@trivago/prettier-plugin-sort-imports'
+  - prettier-plugin-tailwindcss
+importOrder:
+  - <THIRD_PARTY_MODULES>
+  - ^@/stores/.+$
+  - ^@/shared/.+$
+  - ^@/lib/.+$
+  - ^@/.+$
+  - (?!@/).+\.vue$
+  - ^[./].+$
+importOrderSeparation: true
+importOrderSortSpecifiers: true

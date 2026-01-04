@@ -1,0 +1,45 @@
+modes:
+  normal: 一般
+  stat: 装备能力
+  item-level: 道具等级
+  dye: 染色
+no-result-tips: 找不到任何结果0.0
+options-normal:
+  title: 搜寻目标
+  name: 名称
+  material: 制作素材
+  obtain-name: 取得来源
+  map: 地图
+options-stat:
+  select-stat:
+    title: 选择一项或多项能力
+    title-multiple: 选择了{num}项能力
+    search-placeholder: 搜寻能力
+sort-options:
+  title: 排序方式
+  options:
+    default: 预设排序
+    atk: ATK
+    def: DEF
+    stability: 稳定度
+    name: 名称
+    id: 加入时间
+  order:
+    title: 排序顺序
+    up: 由小至大
+    down: 由大至小
+equipment-detail:
+  production-equipment: 制作装备
+  equipment-type: 装备类型
+  stability: 稳定度
+  content-titles:
+    stats: 装备能力
+    recipe: 制作配方
+    obtains: 取得方式
+  recipe:
+    item-level: 道具等级
+    item-difficulty: 难易度
+    base-potential: 潜力值
+    spina: 众神币
+  no-any-obtain-tips: 取得方式未知
+  no-any-stat-tips: 这个装备没有任何能力0.0

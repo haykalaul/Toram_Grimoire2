@@ -1,0 +1,245 @@
+character-stats: 角色面板
+character: 角色
+custom-equipment:
+  button-title: 自訂裝備
+character-basic:
+  title: 角色設定
+  character-level: 角色等級
+  character-name: 角色名稱
+  character-stat-points: 角色能力點數
+  character-optional-base-stat: 角色個人能力
+  copy-character-success: 已成功複製「{name}」
+  remove-character-success: 已成功移除「{name}」
+  restore-character-success: 已復原被刪除的「{name}」
+  at-least-one-character: 必須至少留下一個角色。
+  character-builds-tip: 技能配置、料理配置等其他配置皆是以角色為單位進行綁定，系統會紀錄每個角色綁定了哪些配置。
+character-dashboard:
+  title: 總覽
+  no--any-equipment-tips: 還沒有裝備任何裝備。點擊右側的按鈕來編輯裝備。
+browse-equipments:
+  append-equipments: 新增裝備
+  equip-label: 裝備
+  equip-cancel-label: 取消裝備
+  select-equipment-tips: 選擇的裝備會顯示在這裡
+  remove-equipment-tips: 已移除裝備「{name}」。
+  removed-equipment-restore-tips: 已復原裝備「{name}」。
+  copy-equipment-tips: 已複製裝備。
+  no-any-equipment-tips: 這裡目前空空的...請點選右上角的按扭來新增裝備0.0
+  serach-no-equipment-tips: 沒有搜尋到任何裝備。
+  double-click-to-select-tips: 提示：可以透過雙擊來直接更換裝備
+  equipped: 裝備中
+  click-edit-tips: 或是點擊上方各區塊可以直接編輯
+  auto-arrange-success-tips: 自動整理成功。
+  equipped-equipments-title: 裝備中的裝備
+append-equipments:
+  title: 新增裝備
+  search-equipment-placeholder: 搜尋裝備名稱...
+  search-equipment-selected-text: '{num}件裝備已被選取'
+  search-text-empty-tips: 搜尋的關鍵字須至少一個字元。
+  append-equipments-success-tips: 已成功新增{num}件裝備。
+  selected-equipments-cleared-tips: 已清除選取的裝備。
+  selected-equipments-default-tips: 已選取的裝備會顯示在這裡。
+  search-stat-tips: 點擊此處以選擇能力
+  current-selected-stat: 目前能力
+create-custom-equipment:
+  equipment-default-name: 自訂{type}
+  select-equipment-type-message: 請選擇新增的自訂裝備的類型
+equipment-info:
+  equipment: 裝備
+  stability: 穩定度
+  refining: 精鍊值
+  stat-empty: 此裝備沒有能力
+  crystal-empty: 此裝備沒有緞晶
+equipment-basic-editor:
+  title: 裝備設定
+  select-equipment-to-edit-tips: 選擇要編輯的裝備
+  clone-stats:
+    caption-1: 此功能可以透過複製其他裝備的能力，來新增能力到目前的裝備上。
+    caption-2: 選擇一件裝備後，該裝備的能力會顯示在這裡。可以從中勾選想要複製的裝備能力。
+  equipment-name: 裝備名稱
+  equipment-type: 裝備類型
+  equipment-label: 裝備標籤
+  label-delete: 刪除標籤
+  label-empty-caption: 目前還沒有任何標籤～點選上方的按扭來新增一個標籤。
+  only-one-element-stat-tips: 一件裝備只能擁有一個屬性，請確認編輯中的能力清單。
+select-crystals:
+  title: 選擇鍛晶
+  show-crystal-stats: 顯示鍛晶能力
+  filter-all-crystal: 全部鍛晶
+  filter-last-crystal: 高階鍛晶
+  search-placeholder: 搜尋緞晶
+  selected-crystals: 已選擇的鍛晶
+  category-title:
+    - 武器
+    - 身體裝備
+    - 追加裝備
+    - 特殊裝備
+    - 通用
+skill-build:
+  title: 技能
+  passive-skills: 被動技能
+  active-skills: 主動技能
+  skills-preview: 技能一覽
+  skill-trees-directory:
+    title: 技能樹目錄
+    caption: 透過點擊技能樹名稱可以快速移動到對應的技能樹。
+  disable-skills: 停用{type}
+  display-stats-only: 僅顯示有影響角色能力的技能效果
+  user-set-title: 參數數值設定
+  stack-default-name: 技能層數
+  skill-effect-default-name: 技能效果
+  skill-invalid: 裝備不符。
+  skill-multiple-effects: 包含多個效果。
+  formula-text:
+    target_def: 目標防禦
+    target_level: 目標等級
+  apply-skill-level-tips:
+    - 此次調整技能等級尚未儲存。
+    - 更新技能的等級時，系統將自動更新同一技能樹上相關聯技能的技能等級。若確定要更改請按下上方的確認按鈕。
+  effected-skills-title: 受影響的技能
+  no-any-build-tips: 還沒有建立任何配置喔～請先透過左上方的選單進入「技能模擬器」，建立新的技能配置。
+  no-any-skill-tips:
+    - 這個配置目前空空如也0.0
+    - 請點選右側的按鈕來新增技能樹。
+  skill-tree-empty-tips: 這個技能樹還沒有任何技能。
+  export-buile-title: 匯出配置
+  export-text: 匯出文字
+  export-text-caption: 以下為系統自動產生的技能清單，按下按鈕可以快速複製。複製後可再依需求自行編輯。
+  export-image: 匯出圖片
+  export-image-caption:
+    - 以下為系統自動產生的技能技能圖片，按下按鈕可以直接進行下載。
+    - 於IOS系統上使用此功能下載圖片時，一部分瀏覽器還不支援「設定檔名」的功能，因此下載圖片時可能會發生副檔名不為PNG的問題。若遇到此問題，請在下載圖片後自行將檔名改成「XXX.png」，該圖片就可以正常顯示。
+    - 如果無法透過按鈕下載圖片，可使用瀏覽器預設的下載圖片的方式進行下載。例如：於電腦上操作時，通常是在圖片上點滑鼠右鍵接著按下儲存。
+character-damage:
+  title: 傷害計算
+  target-options-title: 目標數值設定
+  options-base-title: 基本設定
+  options-other-title: 其他設定
+  armor-break-display: 顯示降防時傷害
+  force-critical: 傷害必定爆擊
+  armor-break: 降防
+  element-none: 無設定
+  no-result: 傷害公式待更新
+  range-damage-title: 目標距離判定
+  no-any-skill-tips: 目前還沒有任何傷害技能～請在技能配置中配置傷害技能以使用傷害計算器0.0
+  test-version-tips: 此功能目前還在測試階段，某些技能的例外狀況還在補齊資料中，可能導致計算結果有誤。
+  basic-tips:
+    - 傷害計算的結果皆為考慮穩定度、命中率、暴擊率等所計算出的傷害期望值。
+enemy-elements:
+  title: 目標屬性
+  neutral: 無屬性
+  fire: 火屬性
+  water: 水屬性
+  wind: 風屬性
+  earth: 地屬性
+  light: 光屬性
+  dark: 暗屬性
+character-stat-detail:
+  show-detail-preview: 顯示簡化版數值
+  toggle-detail-visibility-caption: 點擊任意能力可查看其數值細節。
+  base-value: 基礎值
+  init-value: 初始值
+  additional-value: 額外加成
+  equipped-with-text: 裝備為{equip}時
+  crystal: 鍛晶
+  food: 料理
+  equipment-restriction-text:
+    1h_sword: 主手｜單手劍
+    2h_sword: 雙手劍
+    bow: 弓
+    bowgun: 弩
+    staff: 法杖
+    magic_device: 主手魔導具
+    knuckle: 主手｜拳套
+    dual_sword: 雙劍
+    halberd: 旋風槍
+    katana: 拔刀劍
+    main:
+      none: 主手｜空手
+    sub:
+      magic_device: 副手｜魔導具
+      knuckle: 副手｜拳套
+      arrow: 箭矢
+      dagger: 小刀
+      shield: 盾牌
+    armor:
+      normal: 身體防具｜一般
+      dodge: 身體防具｜輕量化
+      defense: 身體防具｜重量化
+      none: 身體防具｜無裝備
+build-common:
+  at-least-one-build-tips: 必須至少留下一個配置。
+  select-build-button: 使用此配置
+  build-selected-message: 目前選取的配置
+  move-tips: 透過拖曳可以調整順序
+food-build:
+  title: 料理
+  disable-foods: 停用料理
+  food-build: 料理配置
+  food-build-name: 料理配置名稱
+  food-list: 料理清單
+  copy-food-build-success-tips: 複製料理配置成功。
+  remove-food-build-success-tips: 移除料理配置成功。
+  restore-food-build-success-tips: 復原料理配置成功。
+  selected-food-limit-reached: 可選取的料理數量已達上限。
+  introduction:
+    - 透過點擊前方的圓點來選取最多五個料理。
+    - 原本是0級的料理在提升等級時會自動選取。
+registlet-build:
+  title: 雷吉斯托環
+  disable-registlet: 停用雷吉斯托環
+  registlet-build: 托環配置
+  edit-registlet: 編輯托環
+  show-detail: 顯示詳細資訊
+  default-tips: 這裡空空如也0.0，請點擊上方的「編輯托環」來新增項目。
+  main-tips-1: 目前還是測試版，部分技能的資料可能尚未補齊而導致該托環沒有效果。發現有哪些托環漏掉時可以反應給開發團隊。
+  main-tips-2: 目前僅支援與數值相關的托環，例如：角色能力加成、技能倍率、技能傷害次數等。部分條件較複雜的托環可能尚未支援。
+potion-build:
+  title: 消耗品
+  disable-potion: 停用消耗品
+  potion: 消耗品
+  potion-build: 消耗品配置
+  edit-potion: 編輯消耗品
+  default-tips: 這裡空空如也0.0，請點擊上方的「編輯消耗品」來新增項目。
+combo:
+  tags:
+    consecutive: 連擊
+    smite: 增幅
+    save: 補位
+    minds-eye: 心眼
+    tenacity: 強韌
+    swift: 加速
+    invincible: 無敵
+    tough: 執著
+    reflection: 反射
+    bloodsucker: 吸血
+    none: 無
+  damage-calc:
+    damage-sum-title: 總傷害
+    previous-skill-next-title: 上一招技能提供的額外效果
+  tips:
+    - 連擊的傷害計算功能僅用於傷害試算，相關設定並不會儲存。
+    - 使用傷害計算功能時，預設會將每個技能的所有傷害加起來。然而有部分技能帶有多種傷害，這類的技能需要自行選擇哪些傷害要納入計算，這部分還請注意。
+save-load-control:
+  title: 存檔
+  export-save-data-title: 匯出角色模擬器資料
+  export-save-data-caption: 可以將角色模擬器的資料匯出成一個檔案，用於備份或分享給他人。可以自行選擇想要匯出的角色、裝備、技能配置或料理配置。
+  export-save-data-tips:
+    - 匯入資料後不會覆蓋原本的檔案。
+  auto-save-success-tips: 自動存檔成功。
+  auto-load-success-tips: 自動讀取成功。
+  manual-save-button-title: 手動存檔
+  manual-load-button-title: 手動讀取
+  manual-save-load-caption: 正常情況下，系統會在使用者離開頁面或進入頁面時自動進行存檔或讀檔。但如果有需要的話，下面的按鈕提供手動存檔或讀檔的功能。
+  deleta-all-data-title: 刪除角色模擬器資料
+  deleta-all-data-success-tips: 成功刪除角色模擬器所有資料，系統也已關閉自動存檔功能。請重新整理網頁。
+  deleta-all-data-counter-title: 計數器
+  deleta-all-data-caption:
+    - 在某些情況下，角色模擬器的檔案可能毀損，導致系統無法正常運行。使用下方的按鈕可以刪除角色模擬器所有資料。自動存檔功能也將暫時失效，意即當前的資料將不會自動儲存。
+    - 請將下方的計數器數值調整到10，刪除按鈕就會出現。
+    - 將資料刪除成功後，請立即重新整理，來讓系統重新初始化。
+  export-build: 匯出配置
+main-tips:
+  no-equipment-selected: 這個欄位是空的
+  no-result: 找不到任何結果0.0
+  character-stats-compare-no-result: 沒有任何能力值變化。

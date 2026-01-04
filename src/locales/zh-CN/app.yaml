@@ -1,0 +1,123 @@
+loading-message:
+  Stats: 载入角色能力清单
+  CharacterStats: 载入角色模拟器资料
+  Items: 载入装备资料
+  Skill: 载入技能资料
+  Glossary: 载入名词解释
+  Enchant: 载入附魔资料
+  DamageCalculation: 载入伤害计算器
+  Food: 载入料理资料
+  Registlet: 载入雷吉斯托环资料
+  ItemsPotion: 载入消耗品资料
+  Quest: 载入任务资料
+  init: 初始化
+  bottom-tips:
+    0: 初次载入需要较长的时间，请稍候...
+    1: 若载入途中发生错误，请先试着重新整理网页。
+  init-locale: 载入语言资料
+page-title:
+  base: 布偶的魔法书
+  character-simulator: 角色模拟
+  skill-simulator: 技能模拟
+  skill-query: 技能查询
+  item-query: 道具查询
+  crystal-query: 锻晶查询
+  registlet-query: 托环查询
+  damage-calculation: 伤害计算
+  enchant-simulator: 附魔模拟
+  enchant-doll: 附魔布偶
+  glossary-query: 名词清单
+  main-quest-calc: 主线任务计算
+  book-main: 文章模板
+  book-preview: 文章模板预览
+  home: 主页
+  about: 关于
+about:
+  author:
+    title: 作者
+    sub-title: 路边的娃娃机随处可见的布偶。
+    toram-id: 托兰ID
+    github-message: 有空的话，可以到这里面帮我按一下
+  team:
+    title: 团队
+    sub-title: 感谢整个魔法书制作团队0.0
+    main: 主要成员
+    skill-data: 技能资料协助
+    equipment-data: 装备资料协助
+  sponsor:
+    title: 赞助
+    sub-title: 感谢所有愿意提供赞助的人～
+    group: 公会赞助
+    personal: 个人赞助
+  words:
+    title: 杂谈
+    sub-title: 就是一些无关紧要的话w
+    contents:
+      - 若有任何联系作者的需要，可于巴哈姆特或Twitter私讯。也可以于游戏中进行私讯，本人比较常在信天翁之巢出没。
+      - 如果有任何意见、问题或疑似BUG的情形，都欢迎联系作者。
+      - 如果有意愿协助资料上的测试、输入或翻译，或有意愿赞助（游戏内的资源），也欢迎洽询作者。
+  partnership:
+    title: 合作
+    join: 加入
+  disclaimer: 托兰异世录为{link}所营运之游戏。本网站只是一个分享资料的小地方。
+settings:
+  title: 设定
+  update:
+    new-version-detected: 侦测到新版本
+    force-update: 立即更新
+    new-version-detected-tips: 侦测到新版本，可到设定里进行手动更新。
+  night-mode:
+    title: 夜间模式
+    caption: 如果喜欢黑色为主色的介面，可以切换成夜间模式。
+  switch-font:
+    title: 更改字体
+    caption: 若字体显示有问题（特定装置会发生），或是不喜欢现在的预设字体，可以切换字体为基本字体。
+    tips-1: 切换后可能要花费数秒的时间下载字体，才能完成替换。
+    default-font: 预设字体
+    base-font: 基本字体
+  set-rem:
+    title: 调整页面大小
+    caption: 可以手动设定页面的距离单位，来等比例调整页面所有元素的大小。
+    rem-title: 距离单位
+    tips-1: 可调整范围为120~200，预设值为160。
+  primary-language:
+    title: 语言设定
+    caption: 这里可以设定页面主要显示的语言，预设情况下会使用目前浏览器的语言。
+    tips-1: 设定完毕后，页面需重新整理方得生效。
+    tips-2: 尚未翻译的部分依然会显示其他语言。
+    lang-title:
+      auto: 自动判定
+      0: English
+      1: 繁体中文
+      2: 日本语
+      3: 简体中文
+  secondary-language:
+    title: 次要语言设定
+    caption: 这里可以设定第二优先级的语言。简单来说，若主要的语言还没有翻译，便会优先显示这边设定的语言。
+    tips-1: 设定完毕后，页面需重新整理方得生效。
+    tips-2: 若第二优先级语言依然没有翻译，则会显示原始资料（一般而言是繁体中文）。
+  clear-spreadsheets-caches:
+    title: 清除资料库快取
+    caption: 为了加快载入速度，魔法书针对资料库使用了快取技术。在少数情况下，快取中储存的旧资料库可能导致程式无法正常运作，这时候可以使用下方的按钮清除快取，来强制魔法书重新下载最新的资料库。
+    tips-1: 快取被清除后，在下次进入页面时资料库将会重新下载。这可能需要数十秒的时间，请耐心等待。
+    tips-2: 清除快取完毕后，建议使用重新整理来让页面立即重新载入。
+    button-text: 清除资料库快取
+    success-tips: 已清除资料库快取。下次进入页面时将会重新下载资料库。
+  storage-backup:
+    title: 存档备份及还原
+    caption: 魔法书的存档功能皆是利用浏览器本身的功能，将资料储存在装置上，因此可能因为清除浏览资料或更换装置等因素导致存档遗失。下方的按钮提供备份或还原魔法书存档资料的功能，也可以使用他人提供的档案或跨浏览器进行资料的还原。
+    tips-1: 进行还原后，原本的资料将会被覆盖。
+    tips-2: 读取成功后，请直接重新整理网页来确保系统正确初始化。
+    save: 备份
+    load: 还原
+    save-success-tips: 存档成功。
+    load-success-tips: 还原成功。
+    load-failed-tips: 读取失败。
+    wrong-file-type-tips: 读取的档案必须为文字（.txt）档。
+    restriction-homepage: 为避免发生无法预期的错误，此功能限制只能在首页使用。
+features:
+  copy-to-clipboard-success-tips: 已复制文本至剪贴簿。
+  copy-url-to-clipboard-success-tips: 已复制网址至剪贴簿。
+  localStorage-inavailable-tips: 此浏览器版本无法使用内建储存功能。
+notices:
+  enchant-refactor: 由于附魔系统的更新，如果遇到错误请到「设定」里进行「清除资料库快取」，资料库重新下载后附魔系统就能正常运作。

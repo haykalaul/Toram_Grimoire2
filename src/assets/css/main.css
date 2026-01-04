@@ -1,0 +1,141 @@
+@reference "@/tailwind.css";
+
+@import './font/font.css' layer(base);
+@import './global.css' layer(components);
+@import './component.css' layer(components);
+
+:root {
+  --app-screen-max-width: 1376px;
+  --app-side-menu-width: 240px;
+  --app-side-menu-minimize-width: 56px;
+  --app-main-content-width: 768px;
+  --app-main-content-padding-x: 32px;
+  --app-favicon-color-main: #ffa4c5;
+  --app-favicon-color-sub: #f7e4eb;
+  --app-body-bg-color: #fefcfd;
+}
+
+@media screen and (max-width: 1440px) {
+  :root {
+    --app-side-menu-width: 224px;
+    --app-main-content-padding-x: 24px;
+  }
+}
+
+html.theme--night-mode {
+  --app-favicon-color-main: #ffabbb;
+  --app-favicon-color-sub: #efdae0;
+  --app-body-bg-color: #241f2c;
+}
+
+html {
+  background-color: var(--app-white);
+  height: 100%;
+  width: 100%;
+
+  font-family:
+    'Itim',
+    Microsoft JhengHei,
+    sans-serif;
+  --app-main-font: Microsoft JhengHei;
+
+  &.font-1 {
+    font-family:
+      'Itim',
+      'naikaifont',
+      Microsoft JhengHei,
+      sans-serif;
+    --app-main-font: 'naikaifont';
+  }
+  &.font-2 {
+    font-family:
+      'Itim',
+      'Noto Sans TC',
+      Microsoft JhengHei,
+      sans-serif;
+    --app-main-font: 'Noto Sans TC';
+  }
+}
+
+* {
+  transition-timing-function: ease;
+}
+
+body {
+  scroll-behavior: smooth;
+  color: var(--app-stone-90);
+  position: relative;
+  /* background-color: var(--app-body-bg-color); */
+  height: 100%;
+  width: 100%;
+}
+
+::placeholder {
+  color: var(--app-primary-5);
+}
+
+input,
+textarea {
+  background-color: var(--app-white);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+input:focus {
+  outline: none;
+}
+
+::-webkit-scrollbar {
+  width: 0.375rem;
+  height: 0.375rem;
+}
+
+@media screen and (max-width: 768px) {
+  ::-webkit-scrollbar {
+    width: 0.125rem;
+    height: 0.125rem;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--app-primary-30) !important;
+    border-radius: 0.125rem;
+  }
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-primary-20 duration-150;
+  border-radius: 0.2rem;
+
+  &:hover {
+    @apply bg-primary-30;
+  }
+}
+
+::-webkit-scrollbar-corner {
+  background-color: var(--app-white);
+}
+
+::-webkit-scrollbar-button {
+  @apply bg-primary-20 duration-150;
+  border-radius: 0.2rem;
+
+  &:hover {
+    @apply bg-primary-30;
+  }
+
+  @media screen and (max-width: 768px) {
+    width: 0;
+    height: 0;
+  }
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-primary-10;
+}
