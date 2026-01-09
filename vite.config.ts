@@ -1,3 +1,4 @@
+import { intlayer } from 'vite-intlayer'; // Add the plugin to the Vite plugin list
 import ViteYaml from '@modyfi/vite-plugin-yaml'
 import tailwindcss from '@tailwindcss/vite'
 import legacy from '@vitejs/plugin-legacy'
