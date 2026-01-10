@@ -10,7 +10,8 @@
     "lint": "eslint . --fix",
     "type-check": "vue-tsc --build",
     "pretty": "prettier --write src",
-    "format": "prettier --config .prettierrc.yaml --write \"src/**/*.{js,ts,jsx,tsx,json,css,vue}\""
+    "format": "prettier --config .prettierrc.yaml --write \"src/**/*.{js,ts,jsx,tsx,json,css,vue}\"",
+    "intlayer:build": "npx intlayer build"
   },
   "dependencies": {
     "@floating-ui/dom": "^1.5.3",
@@ -65,6 +66,7 @@
     "tinycolor2": "^1.4.2",
     "typescript": "^5.8.3",
     "vite": "^6.3.5",
+    "vite-intlayer": "^7.5.11",
     "vite-plugin-html": "^3.2.2",
     "vite-plugin-pwa": "^1.0.0",
     "vite-plugin-vue-devtools": "^7.7.6",
