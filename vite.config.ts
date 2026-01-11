@@ -1,4 +1,4 @@
-import { intlayer } from 'vite-intlayer'
+import { intlayerPlugin } from 'vite-intlayer'
 import ViteYaml from '@modyfi/vite-plugin-yaml'
 import tailwindcss from '@tailwindcss/vite'
 import legacy from '@vitejs/plugin-legacy'
@@ -18,7 +18,7 @@ export default defineConfig(({ mode }) => {
   const useExternal = mode === 'production'
   const base = '/'
   const plugins = [
-    intlayer(),
+    intlayerPlugin(),
     vue(),
     vueJsx(),
     vueDevTools(),

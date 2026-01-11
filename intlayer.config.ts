@@ -1,5 +1,5 @@
 import { type IntlayerConfig } from "intlayer";
-import { syncJSON } from "@intlayer/sync-json-plugin";
+// import { syncJSON } from "@intlayer/sync-json-plugin";
 
 const config: IntlayerConfig = {
   internationalization: {
@@ -7,10 +7,10 @@ const config: IntlayerConfig = {
     defaultLocale: 'en',
   },
   plugins: [
-    syncJSON({
-      format: "vue-i18n",
-      source: ({ key, locale }) => `./src/locales/${locale}/${key}.json`,
-    }),
+    // syncJSON({
+    //   format: "vue-i18n",
+    //   source: ({ key, locale }) => `./src/locales/${locale}/${key}.json`,
+    // }),
   ],
 };
 
