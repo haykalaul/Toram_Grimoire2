@@ -96,9 +96,15 @@ export const useLanguageStore = defineStore('app-language', () => {
         let resultData!: object
         const retry = async () => {
           try {
-            const dataModule = await import(`../../../locales/${locale}/${namespace}.yaml`)
-            resultData = dataModule.default ?? {}
-          } catch (err) {
+            // Priority: JSON (Intlayer) > YAML (Legacy)
+            try {
+              const dataModule = await import(`../../../locales/${locale}/${namespace}.json`)
+              resultData = dataModule.default ?? {}
+            } catch {
+              const dataModule = await import(`../../../locales/${locale}/${namespace}.yaml`)
+              resultData = dataModule.default ?? {}
+            }
+          } catch {
             count += 1
           }
         }
