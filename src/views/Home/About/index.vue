@@ -162,7 +162,7 @@ const columns: {
     list: [
       {
         title: 'toram-id',
-        list: ['Cyteria'],
+        list: ['Cyteria', 'Skyzen'],
       },
     ],
   },
@@ -171,7 +171,7 @@ const columns: {
     list: [
       {
         title: 'main',
-        list: ['緋月音', '輕沂@hide'],
+        list: ['緋月音', '輕沂@hide','海卡劳尔'],
       },
       {
         title: 'skill-data',

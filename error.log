@@ -1,0 +1,19 @@
+
+> toram-grimoire@0.1.0 dev
+> vite
+
+[31mfailed to load config from C:\laragon\www\Toram_Grimoire2\vite.config.ts[39m
+[31merror when starting dev server:
+file:///C:/laragon/www/Toram_Grimoire2/node_modules/.vite-temp/vite.config.ts.timestamp-1768096187969-b7e5133293332.mjs:2
+import { intlayer } from "file:///C:/laragon/www/Toram_Grimoire2/node_modules/vite-intlayer/dist/esm/index.mjs";
+         ^^^^^^^^
+SyntaxError: The requested module 'file:///C:/laragon/www/Toram_Grimoire2/node_modules/vite-intlayer/dist/esm/index.mjs' does not provide an export named 'intlayer'
+    at ModuleJob._instantiate (node:internal/modules/esm/module_job:123:21)
+    at async ModuleJob.run (node:internal/modules/esm/module_job:191:5)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:336:24)
+    at async loadConfigFromBundledFile (file:///C:/laragon/www/Toram_Grimoire2/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:49451:15)
+    at async bundleAndLoadConfigFile (file:///C:/laragon/www/Toram_Grimoire2/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:49294:22)
+    at async loadConfigFromFile (file:///C:/laragon/www/Toram_Grimoire2/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:49257:44)
+    at async resolveConfig (file:///C:/laragon/www/Toram_Grimoire2/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:48752:24)
+    at async _createServer (file:///C:/laragon/www/Toram_Grimoire2/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:38349:66)
+    at async CAC.<anonymous> (file:///C:/laragon/www/Toram_Grimoire2/node_modules/vite/dist/node/cli.js:753:20)[39m
