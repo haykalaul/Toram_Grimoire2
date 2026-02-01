@@ -4,7 +4,7 @@ This is a comprehensive web tool for the mobile game 🎲 "Toram Online" develop
 
 ⭐ Deployed on [here](https://cy-grimoire.netlify.app/).
 
-- ☕ Author: Cyteria & Aul
+- ☕ Author: Cyteria & Auls
 - 📧 Email: haikalaulilalbab@gmail.com or cyteria39@gmail.com
 
 ## Project Overview
